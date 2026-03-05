@@ -58,7 +58,7 @@ router.post("/", auth, async (req, res) => {
         ]
       );
 
-      // 🔥 AUMENTAR STOCK
+      // AUMENTAR STOCK
       await connection.query(
         `UPDATE productos
          SET stock_actual = stock_actual + ?
@@ -66,7 +66,7 @@ router.post("/", auth, async (req, res) => {
         [item.cantidad, item.producto_id]
       );
 
-      // 🔥 REGISTRAR MOVIMIENTO
+      // REGISTRAR MOVIMIENTO
       await connection.query(
         `INSERT INTO movimientos_stock
          (producto_id, tipo, cantidad, motivo)

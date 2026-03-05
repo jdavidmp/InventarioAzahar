@@ -5,9 +5,7 @@ const db = require('../config/db');
 const router = express.Router();
 
 
-// =========================
 // REGISTRO
-// =========================
 router.post('/register', async (req, res) => {
   const { nombre, email, password } = req.body;
 
@@ -27,9 +25,7 @@ router.post('/register', async (req, res) => {
 });
 
 
-// =========================
 // LOGIN
-// =========================
 router.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
