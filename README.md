@@ -37,6 +37,17 @@ Frontend:
 - Axios
 - CSS
 
+## Estructura del proyecto
+
+InventarioAzahar/
+│
+├── config/
+├── routes/
+├── models/
+├── middlewares/
+├── frontend/
+└── index.js
+
 ## Capturas
 Dashboard
 <img width="1899" height="905" alt="image" src="https://github.com/user-attachments/assets/09b4f1e4-d429-4041-8ae5-a3b64035fb81" />
@@ -48,4 +59,5 @@ Dashboard
 ## Autor
 
 Juan David
+
 
