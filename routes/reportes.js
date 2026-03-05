@@ -5,7 +5,7 @@ const db = require("../config/db");
 const router = express.Router();
 
 
-// 📄 REPORTE DE VENTAS
+// REPORTE DE VENTAS
 router.get("/ventas", async (req, res) => {
   try {
     const { desde, hasta } = req.query;
@@ -85,7 +85,7 @@ router.get("/ventas", async (req, res) => {
 });
 
 
-// 📄 REPORTE DE COMPRAS
+// REPORTE DE COMPRAS
 router.get("/compras", async (req, res) => {
   try {
     const { desde, hasta } = req.query;
