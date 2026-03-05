@@ -37,10 +37,15 @@ Frontend:
 - Axios
 - CSS
 
-## 📷 Capturas
+## Capturas
+Dashboard
+<img width="1899" height="905" alt="image" src="https://github.com/user-attachments/assets/09b4f1e4-d429-4041-8ae5-a3b64035fb81" />
 
-(Aquí puedes agregar imágenes del sistema)
+<img width="1898" height="899" alt="image" src="https://github.com/user-attachments/assets/f25bd5ca-ec11-4406-8aa5-6154786bc0ab" />
+
+<img width="1899" height="898" alt="image" src="https://github.com/user-attachments/assets/f8c0efcf-a8ea-4d45-a468-fd6f66f284e3" />
 
 ## Autor
 
 Juan David
+
