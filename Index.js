@@ -1,11 +1,11 @@
 require('dotenv').config();
 const express = require('express');
-const cors = require('cors'); // 👈 importar antes
+const cors = require('cors'); 
 const app = express();
 const db = require('./config/db');
 
-app.use(cors({ origin: "*"})); // 👈 PRIMERO CORS
-app.use(express.json()); // 👈 luego JSON
+app.use(cors({ origin: "*"})); 
+app.use(express.json()); 
 
 // Rutas
 const authRoutes = require('./routes/auth');
